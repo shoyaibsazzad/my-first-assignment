@@ -1,6 +1,8 @@
 body{
     margin: 0;
     box-sizing: border-box;
+    background-color: #F5F8FF;
+    font-family: sans-serif;
 }
 header{
     height: 698px;
@@ -100,11 +102,59 @@ main h1{
 }
 .users .user-title,
 .users .user-count h2,
-.users .user-count p {
+.users .user-count p
+{
   margin: 0;
 }
 .user-count p{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
+}
+
+/* .............user reviews............... */
+.user-review{
+    max-width: 1140px;
+    margin: 0 auto;
+    height: 306px;
+    margin-top: 150px;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.review-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.reviwer-info{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+}
+.reviewer-data h4,
+.reviewer-data p {
+  margin: 0;
+}
+.card{
+    height: 200px;
+    width: 320px;
+    border-radius: 24px;
+    background-color: white;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.reviwer-info img{
+    border-radius: 50%;
+}
+.users-title{
+    font-size: 42px;
+    font-weight: bold;
 }
